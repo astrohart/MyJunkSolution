@@ -3,7 +3,7 @@ using System;
 
 namespace MyJunkSolution.Displayers
 {
-    public class Dislpayer : IDisplayer
+    public class Displayer : IDisplayer
     {
         public void Dislpay()
             => Console.WriteLine("Have a wonderful Disney day!");
