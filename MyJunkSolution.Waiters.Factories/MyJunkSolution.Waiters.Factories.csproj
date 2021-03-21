@@ -68,6 +68,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MakeNewWaiter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -83,6 +84,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="1382_cogs.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyJunkSolution.Waiters.Interfaces\MyJunkSolution.Waiters.Interfaces.csproj">
+      <Project>{F9644AAA-150F-474E-8CD4-C99AEAF136E1}</Project>
+      <Name>MyJunkSolution.Waiters.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyJunkSolution.Waiters\MyJunkSolution.Waiters.csproj">
+      <Project>{646DC003-0434-44C2-8E83-35982F901A96}</Project>
+      <Name>MyJunkSolution.Waiters</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
