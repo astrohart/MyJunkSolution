@@ -73,6 +73,14 @@
       <Project>{84C1F71A-AAA4-4A08-9728-19E710965E4D}</Project>
       <Name>MyJunkSolution.Displayers.Interfaces</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MyJunkSolution.Waiters.Factories\MyJunkSolution.Waiters.Factories.csproj">
+      <Project>{95088FA2-D4F5-4353-87C6-F20222DD1851}</Project>
+      <Name>MyJunkSolution.Waiters.Factories</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyJunkSolution.Waiters.Interfaces\MyJunkSolution.Waiters.Interfaces.csproj">
+      <Project>{F9644AAA-150F-474E-8CD4-C99AEAF136E1}</Project>
+      <Name>MyJunkSolution.Waiters.Interfaces</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

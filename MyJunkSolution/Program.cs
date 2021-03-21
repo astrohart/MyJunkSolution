@@ -1,5 +1,5 @@
 ﻿using MyJunkSolution.Displayers.Factories;
-using System;
+using MyJunkSolution.Waiters.Factories;
 
 namespace MyJunkSolution
 {
@@ -15,7 +15,11 @@ namespace MyJunkSolution
         {
             MakeNewDisplayer.FromScratch()
                             .Dislpay();
-            Console.ReadKey(); // wait for user to press a key
+
+            // wait for the user to press a key, so that the user can verify the
+            // displayed text.
+            MakeNewWaiter.FromScratch()
+                         .WaitForUserToPressAKey();
         }
     }
 }
