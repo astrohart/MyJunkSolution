@@ -1,6 +1,5 @@
 ﻿using MyJunkSolution.Interfaces;
 using System;
-using System.Runtime.InteropServices;
 
 namespace MyJunkSolution.Displayers
 {
