@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyJunkSolution.Waiters", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyJunkSolution.Waiters.Factories", "MyJunkSolution.Waiters.Factories\MyJunkSolution.Waiters.Factories.csproj", "{95088FA2-D4F5-4353-87C6-F20222DD1851}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foo", "Foo\Foo.csproj", "{CEE60A21-806E-453D-81F6-A858AF2A22D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -80,6 +82,14 @@ Global
 		{95088FA2-D4F5-4353-87C6-F20222DD1851}.Release|x64.Build.0 = Release|x64
 		{95088FA2-D4F5-4353-87C6-F20222DD1851}.Release|x86.ActiveCfg = Release|x86
 		{95088FA2-D4F5-4353-87C6-F20222DD1851}.Release|x86.Build.0 = Release|x86
+		{CEE60A21-806E-453D-81F6-A858AF2A22D3}.Debug|x64.ActiveCfg = Debug|x64
+		{CEE60A21-806E-453D-81F6-A858AF2A22D3}.Debug|x64.Build.0 = Debug|x64
+		{CEE60A21-806E-453D-81F6-A858AF2A22D3}.Debug|x86.ActiveCfg = Debug|x86
+		{CEE60A21-806E-453D-81F6-A858AF2A22D3}.Debug|x86.Build.0 = Debug|x86
+		{CEE60A21-806E-453D-81F6-A858AF2A22D3}.Release|x64.ActiveCfg = Release|x64
+		{CEE60A21-806E-453D-81F6-A858AF2A22D3}.Release|x64.Build.0 = Release|x64
+		{CEE60A21-806E-453D-81F6-A858AF2A22D3}.Release|x86.ActiveCfg = Release|x86
+		{CEE60A21-806E-453D-81F6-A858AF2A22D3}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
