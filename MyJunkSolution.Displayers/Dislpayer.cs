@@ -1,4 +1,4 @@
-﻿using MyJunkSolution.Interfaces;
+using MyJunkSolution.Displayers.Interfaces;
 using System;
 
 namespace MyJunkSolution.Displayers
