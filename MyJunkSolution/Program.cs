@@ -1,4 +1,5 @@
 ﻿using MyJunkSolution.Displayers.Factories;
+using MyJunkSolution.Properties;
 using MyJunkSolution.Waiters.Factories;
 
 namespace MyJunkSolution
@@ -13,13 +14,14 @@ namespace MyJunkSolution
         /// </summary>
         public static void Main()
         {
-            MakeNewDisplayer.FromScratch()
-                            .Dislpay();
+            var newDisplayer = MakeNewDisplayer.FromScratch();
+            newDisplayer.Display();
 
             // wait for the user to press a key, so that the user can verify the
             // displayed text.
             MakeNewWaiter.FromScratch()
-                         .WaitForUserToPressAKey();
+                         .AttachDisplayer(newDisplayer)
+                         .WaitForUserToPressAKey(Resources.Message_PressAnyKeyToContinue);
         }
     }
 }
