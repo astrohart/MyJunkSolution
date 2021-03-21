@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyJunkSolution", "MyJunkSol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyJunkSolution.Interfaces", "MyJunkSolution.Interfaces\MyJunkSolution.Interfaces.csproj", "{84C1F71A-AAA4-4A08-9728-19E710965E4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyJunkSolution.Displayers", "MyJunkSolution.Displayers\MyJunkSolution.Displayers.csproj", "{B5100EA8-BE29-49CF-A08F-823D7F4DFFC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{84C1F71A-AAA4-4A08-9728-19E710965E4D}.Release|x64.Build.0 = Release|x64
 		{84C1F71A-AAA4-4A08-9728-19E710965E4D}.Release|x86.ActiveCfg = Release|x86
 		{84C1F71A-AAA4-4A08-9728-19E710965E4D}.Release|x86.Build.0 = Release|x86
+		{B5100EA8-BE29-49CF-A08F-823D7F4DFFC5}.Debug|x64.ActiveCfg = Debug|x64
+		{B5100EA8-BE29-49CF-A08F-823D7F4DFFC5}.Debug|x64.Build.0 = Debug|x64
+		{B5100EA8-BE29-49CF-A08F-823D7F4DFFC5}.Debug|x86.ActiveCfg = Debug|x86
+		{B5100EA8-BE29-49CF-A08F-823D7F4DFFC5}.Debug|x86.Build.0 = Debug|x86
+		{B5100EA8-BE29-49CF-A08F-823D7F4DFFC5}.Release|x64.ActiveCfg = Release|x64
+		{B5100EA8-BE29-49CF-A08F-823D7F4DFFC5}.Release|x64.Build.0 = Release|x64
+		{B5100EA8-BE29-49CF-A08F-823D7F4DFFC5}.Release|x86.ActiveCfg = Release|x86
+		{B5100EA8-BE29-49CF-A08F-823D7F4DFFC5}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
