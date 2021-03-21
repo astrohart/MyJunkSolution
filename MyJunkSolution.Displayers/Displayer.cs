@@ -1,11 +1,18 @@
 using MyJunkSolution.Displayers.Interfaces;
+using MyJunkSolution.Displayers.Properties;
 using System;
 
 namespace MyJunkSolution.Displayers
 {
+    /// <summary>
+    /// Displays text for the user.
+    /// </summary>
     public class Displayer : IDisplayer
     {
+        /// <summary>
+        /// Displays text on the screen.
+        /// </summary>
         public void Dislpay()
-            => Console.WriteLine("Have a wonderful Disney day!");
+            => Console.WriteLine(Resources.TextToDisplay);
     }
 }
