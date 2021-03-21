@@ -1,4 +1,4 @@
-﻿using MyJunkSolution.Displayers.Factories;
+using MyJunkSolution.Displayers.Factories;
 using MyJunkSolution.Properties;
 using MyJunkSolution.Waiters.Factories;
 
@@ -17,7 +17,7 @@ namespace MyJunkSolution
             var newDisplayer = MakeNewDisplayer.FromScratch();
             newDisplayer.Display();
 
-            Foo.Foo.Bar()
+            FizzBuzz.FizzBuzz.Bar()
                .Baz();
 
             // wait for the user to press a key, so that the user can verify the

@@ -1,8 +1,8 @@
-﻿using System;
+using System;
 
-namespace Foo
+namespace FizzBuzz
 {
-    public class Bar : IFoo
+    public class Bar : IFizzBuzz
     {
         public void Baz()
             => Console.WriteLine(
