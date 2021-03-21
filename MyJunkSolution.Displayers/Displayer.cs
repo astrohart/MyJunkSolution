@@ -5,12 +5,12 @@ using System;
 namespace MyJunkSolution.Displayers
 {
     /// <summary>
-    /// Displays text for the user.
+    /// Displays text on the screen.
     /// </summary>
     public class Displayer : IDisplayer
     {
         /// <summary>
-        /// Displays text on the screen.
+        /// Displays text for the user.
         /// </summary>
         public void Dislpay()
             => Console.WriteLine(Resources.TextToDisplay);
