@@ -16,7 +16,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyJunkSolution.Waiters", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyJunkSolution.Waiters.Factories", "MyJunkSolution.Waiters.Factories\MyJunkSolution.Waiters.Factories.csproj", "{95088FA2-D4F5-4353-87C6-F20222DD1851}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{CEE60A21-806E-453D-81F6-A858AF2A22D3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foo", "Foo\Foo.csproj", "{CEE60A21-806E-453D-81F6-A858AF2A22D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

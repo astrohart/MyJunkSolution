@@ -1,8 +1,8 @@
 using System;
 
-namespace FizzBuzz
+namespace Foo
 {
-    public class Bar : IFizzBuzz
+    public class Bar : IFoo
     {
         public void Baz()
             => Console.WriteLine(

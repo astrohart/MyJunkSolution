@@ -70,9 +70,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FizzBuzz\FizzBuzz.csproj">
+    <ProjectReference Include="..\Foo\Foo.csproj">
       <Project>{CEE60A21-806E-453D-81F6-A858AF2A22D3}</Project>
-      <Name>FizzBuzz</Name>
+      <Name>Foo</Name>
     </ProjectReference>
     <ProjectReference Include="..\MyJunkSolution.Displayers.Factories\MyJunkSolution.Displayers.Factories.csproj">
       <Project>{782E7FBC-9EB8-4944-8441-679C07E43DB7}</Project>
