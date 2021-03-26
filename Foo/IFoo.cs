@@ -1,6 +1,6 @@
-namespace Foo
+namespace fOO
 {
-    public interface IFoo
+    public interface IfOO
     {
         void Baz();
     }

@@ -17,7 +17,7 @@ namespace MyJunkSolution
             var newDisplayer = MakeNewDisplayer.FromScratch();
             newDisplayer.Display();
 
-            Foo.Foo.Bar()
+            fOO.fOO.Bar()
                .Baz();
 
             // wait for the user to press a key, so that the user can verify the

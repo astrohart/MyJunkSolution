@@ -1,8 +1,8 @@
-namespace Foo
+namespace fOO
 {
-    public static class Foo
+    public static class fOO
     {
-        public static IFoo Bar()
+        public static IfOO Bar()
             => new Bar();
     }
 }

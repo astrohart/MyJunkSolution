@@ -58,10 +58,10 @@
     <StartupObject />
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyName>Foo</AssemblyName>
+    <AssemblyName>fOO</AssemblyName>
   </PropertyGroup>
   <PropertyGroup>
-    <RootNamespace>Foo</RootNamespace>
+    <RootNamespace>fOO</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -69,8 +69,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bar.cs" />
-    <Compile Include="Foo.cs" />
-    <Compile Include="IFoo.cs" />
+    <Compile Include="fOO.cs" />
+    <Compile Include="IfOO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
