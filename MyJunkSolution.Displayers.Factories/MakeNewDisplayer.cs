@@ -1,5 +1,5 @@
-﻿using MyJunkSolution.Displayers.Interfaces;
-using MyJunkSolution.Printers;
+using MyJunkSolution.Displayers.Interfaces;
+using MyJunkSolution.Displayers;
 
 namespace MyJunkSolution.Displayers.Factories
 {
