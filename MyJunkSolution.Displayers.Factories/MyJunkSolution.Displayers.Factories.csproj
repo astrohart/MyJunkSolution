@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -90,9 +90,9 @@
       <Project>{84C1F71A-AAA4-4A08-9728-19E710965E4D}</Project>
       <Name>MyJunkSolution.Displayers.Interfaces</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MyJunkSolution.Displayers\MyJunkSolution.Displayers.csproj">
+    <ProjectReference Include="..\MyJunkSolution.Printers\MyJunkSolution.Printers.csproj">
       <Project>{B5100EA8-BE29-49CF-A08F-823D7F4DFFC5}</Project>
-      <Name>MyJunkSolution.Displayers</Name>
+      <Name>MyJunkSolution.Printers</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

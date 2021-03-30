@@ -2,7 +2,7 @@ using MyJunkSolution.Displayers.Interfaces;
 using MyJunkSolution.Displayers.Properties;
 using System;
 
-namespace MyJunkSolution.Displayers
+namespace MyJunkSolution.Printers
 {
     /// <summary>
     /// Displays text on the screen.
