@@ -1,4 +1,4 @@
-namespace MyJunkSolution.Displayers.Interfaces
+namespace MyJunkSolution.Processors.Interfaces
 {
     /// <summary>
     /// Defines the publicly-exposed methods and properties of a Displayer object.

@@ -1,4 +1,4 @@
-﻿using MyJunkSolution.Displayers.Interfaces;
+using MyJunkSolution.Processors.Interfaces;
 
 namespace MyJunkSolution.Waiters.Interfaces
 {
@@ -16,7 +16,7 @@ namespace MyJunkSolution.Waiters.Interfaces
         ///     cref="T:MyJunkSolution.Waiters.Interfaces.IWaiter" />
         /// with a
         /// <see
-        ///     cref="T:MyJunkSolution.Displayers.Interfaces.IDisplayer" />
+        ///     cref="T:MyJunkSolution.Processors.Interfaces.IDisplayer" />
         /// to be
         /// used for displaying text to the user.
         /// </summary>

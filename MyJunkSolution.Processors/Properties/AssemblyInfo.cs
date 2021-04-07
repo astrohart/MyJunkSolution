@@ -1,14 +1,14 @@
-﻿using System.Reflection;
+using System.Reflection;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("xyLOGIX Support Library for MyJunkSolution.Displayers.Factories")]
+[assembly: AssemblyTitle("xyLOGIX Support Library for MyJunkSolution.Processors")]
 [assembly: AssemblyDescription("Provides objects and functionality for ")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("xyLOGIX, LLC")]
-[assembly: AssemblyProduct("xyLOGIX Support Library for MyJunkSolution.Displayers.Factories")]
+[assembly: AssemblyProduct("xyLOGIX Support Library for MyJunkSolution.Processors")]
 [assembly:
     AssemblyCopyright(
         "Copyright © 2020 by xyLOGIX, LLC.  All rights reserved.")]
@@ -23,7 +23,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("e0e808f6-06f0-41c9-a3fc-e5fc34afab97")]
+[assembly: Guid("dd38dffe-9d61-4068-b418-1cff309784bb")]
 
 // Version information for an assembly consists of the following four values:
 //

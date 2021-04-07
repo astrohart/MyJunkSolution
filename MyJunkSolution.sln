@@ -4,11 +4,11 @@ VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyJunkSolution", "MyJunkSolution\MyJunkSolution.csproj", "{F2DE8BB4-FD3A-421C-A2BE-754929A4E757}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyJunkSolution.Displayers.Interfaces", "MyJunkSolution.Displayers.Interfaces\MyJunkSolution.Displayers.Interfaces.csproj", "{84C1F71A-AAA4-4A08-9728-19E710965E4D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyJunkSolution.Processors.Interfaces", "MyJunkSolution.Processors.Interfaces\MyJunkSolution.Processors.Interfaces.csproj", "{84C1F71A-AAA4-4A08-9728-19E710965E4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyJunkSolution.Displayers", "MyJunkSolution.Displayers\MyJunkSolution.Displayers.csproj", "{B5100EA8-BE29-49CF-A08F-823D7F4DFFC5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyJunkSolution.Processors", "MyJunkSolution.Processors\MyJunkSolution.Processors.csproj", "{B5100EA8-BE29-49CF-A08F-823D7F4DFFC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyJunkSolution.Displayers.Factories", "MyJunkSolution.Displayers.Factories\MyJunkSolution.Displayers.Factories.csproj", "{782E7FBC-9EB8-4944-8441-679C07E43DB7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyJunkSolution.Processors.Factories", "MyJunkSolution.Processors.Factories\MyJunkSolution.Processors.Factories.csproj", "{782E7FBC-9EB8-4944-8441-679C07E43DB7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyJunkSolution.Waiters.Interfaces", "MyJunkSolution.Waiters.Interfaces\MyJunkSolution.Waiters.Interfaces.csproj", "{F9644AAA-150F-474E-8CD4-C99AEAF136E1}"
 EndProject

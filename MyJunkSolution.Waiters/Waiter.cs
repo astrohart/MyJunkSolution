@@ -1,4 +1,4 @@
-﻿using MyJunkSolution.Displayers.Interfaces;
+using MyJunkSolution.Processors.Interfaces;
 using MyJunkSolution.Waiters.Interfaces;
 using System;
 
@@ -12,7 +12,7 @@ namespace MyJunkSolution.Waiters
         /// <summary>
         /// Reference to an instance of an object that implements the
         /// <see
-        ///     cref="T:MyJunkSolution.Displayers.Interfaces.IDisplayer" />
+        ///     cref="T:MyJunkSolution.Processors.Interfaces.IDisplayer" />
         /// interface.
         /// </summary>
         private IDisplayer _displayer;
@@ -25,7 +25,7 @@ namespace MyJunkSolution.Waiters
         /// </summary>
         /// <param name="displayer">
         /// (Required.) Reference to an instance of an object that implements
-        /// the <see cref="T:MyJunkSolution.Displayers.Interfaces.IDisplayer" />
+        /// the <see cref="T:MyJunkSolution.Processors.Interfaces.IDisplayer" />
         /// interface for the purposes of, e.g., displaying user prompts.
         /// </param>
         /// <exception cref="T:System.ArgumentNullException">
@@ -51,7 +51,7 @@ namespace MyJunkSolution.Waiters
         ///     cref="T:MyJunkSolution.Waiters.Interfaces.IWaiter" />
         /// with a
         /// <see
-        ///     cref="T:MyJunkSolution.Displayers.Interfaces.IDisplayer" />
+        ///     cref="T:MyJunkSolution.Processors.Interfaces.IDisplayer" />
         /// to be
         /// used for displaying text to the user.
         /// </summary>

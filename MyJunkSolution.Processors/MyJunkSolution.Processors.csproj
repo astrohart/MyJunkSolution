@@ -5,7 +5,7 @@
     <ApplicationIcon>1382_cogs.ico</ApplicationIcon>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <TargetFrameworkProfile />
-    <ProjectGuid>{782E7FBC-9EB8-4944-8441-679C07E43DB7}</ProjectGuid>
+    <ProjectGuid>{B5100EA8-BE29-49CF-A08F-823D7F4DFFC5}</ProjectGuid>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
     <DebugSymbols>true</DebugSymbols>
@@ -58,17 +58,17 @@
     <StartupObject />
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyName>MyJunkSolution.Displayers.Factories</AssemblyName>
+    <AssemblyName>MyJunkSolution.Processors</AssemblyName>
   </PropertyGroup>
   <PropertyGroup>
-    <RootNamespace>MyJunkSolution.Displayers.Factories</RootNamespace>
+    <RootNamespace>MyJunkSolution.Processors</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MakeNewDisplayer.cs" />
+    <Compile Include="Displayer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -86,13 +86,9 @@
     <Content Include="1382_cogs.ico" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MyJunkSolution.Displayers.Interfaces\MyJunkSolution.Displayers.Interfaces.csproj">
+    <ProjectReference Include="..\MyJunkSolution.Processors.Interfaces\MyJunkSolution.Processors.Interfaces.csproj">
       <Project>{84C1F71A-AAA4-4A08-9728-19E710965E4D}</Project>
-      <Name>MyJunkSolution.Displayers.Interfaces</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MyJunkSolution.Displayers\MyJunkSolution.Displayers.csproj">
-      <Project>{B5100EA8-BE29-49CF-A08F-823D7F4DFFC5}</Project>
-      <Name>MyJunkSolution.Displayers</Name>
+      <Name>MyJunkSolution.Processors.Interfaces</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

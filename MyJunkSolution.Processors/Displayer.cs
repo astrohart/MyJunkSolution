@@ -1,8 +1,8 @@
-using MyJunkSolution.Displayers.Interfaces;
-using MyJunkSolution.Displayers.Properties;
+using MyJunkSolution.Processors.Interfaces;
+using MyJunkSolution.Processors.Properties;
 using System;
 
-namespace MyJunkSolution.Displayers
+namespace MyJunkSolution.Processors
 {
     /// <summary>
     /// Displays text on the screen.
