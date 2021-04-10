@@ -1,5 +1,4 @@
 using MyJunkSolution.Processors.Interfaces;
-// ReSharper disable once RedundantUsingDirective
 using MyJunkSolution.Processors;
 
 namespace MyJunkSolution.Processors.Factories
