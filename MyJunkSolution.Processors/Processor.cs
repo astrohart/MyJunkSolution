@@ -1,8 +1,8 @@
 using MyJunkSolution.Processors.Interfaces;
-using MyJunkSolution.Activators.Properties;
+using MyJunkSolution.Processors.Properties;
 using System;
 
-namespace MyJunkSolution.Activators
+namespace MyJunkSolution.Processors
 {
     /// <summary>
     /// Processs text on the screen.

@@ -90,9 +90,9 @@
       <Project>{84C1F71A-AAA4-4A08-9728-19E710965E4D}</Project>
       <Name>MyJunkSolution.Processors.Interfaces</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MyJunkSolution.Activators\MyJunkSolution.Activators.csproj">
+    <ProjectReference Include="..\MyJunkSolution.Processors\MyJunkSolution.Processors.csproj">
       <Project>{B5100EA8-BE29-49CF-A08F-823D7F4DFFC5}</Project>
-      <Name>MyJunkSolution.Activators</Name>
+      <Name>MyJunkSolution.Processors</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

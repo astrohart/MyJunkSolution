@@ -58,10 +58,10 @@
     <StartupObject />
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyName>MyJunkSolution.Activators</AssemblyName>
+    <AssemblyName>MyJunkSolution.Processors</AssemblyName>
   </PropertyGroup>
   <PropertyGroup>
-    <RootNamespace>MyJunkSolution.Activators</RootNamespace>
+    <RootNamespace>MyJunkSolution.Processors</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
