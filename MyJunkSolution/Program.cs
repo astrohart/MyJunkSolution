@@ -15,7 +15,7 @@ namespace MyJunkSolution
         public static void Main()
         {
             var newProcessor = MakeNewProcessor.FromScratch();
-            newProcessor.Display();
+            newProcessor.Process();
 
             Foo.Foo.Bar()
                .Baz();

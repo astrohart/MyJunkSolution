@@ -78,7 +78,7 @@ namespace MyJunkSolution.Waiters
             => Console.ReadKey();
 
         /// <summary>
-        /// Delays the application until the user presses a key. Displays a
+        /// Delays the application until the user presses a key. Processs a
         /// <paramref name="prompt" /> to the user. A non-blank, non-whitespace
         /// value must be passed for the <paramref name="prompt" /> parameter.
         /// <para />
@@ -114,7 +114,7 @@ namespace MyJunkSolution.Waiters
                 throw new InvalidOperationException(
                     "The displayer object dependency has not been initialized."
                 );
-            _displayer.Display(prompt);
+            _displayer.Process(prompt);
             WaitForUserToPressAKey();  
         }
     }

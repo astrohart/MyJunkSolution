@@ -63,9 +63,9 @@ namespace MyJunkSolution.Processors.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Have a wonderful Disney day!.
         /// </summary>
-        internal static string TextToDisplay {
+        internal static string TextToProcess {
             get {
-                return ResourceManager.GetString("TextToDisplay", resourceCulture);
+                return ResourceManager.GetString("TextToProcess", resourceCulture);
             }
         }
     }
