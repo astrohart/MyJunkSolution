@@ -14,8 +14,8 @@ namespace MyJunkSolution
         /// </summary>
         public static void Main()
         {
-            var newDisplayer = MakeNewDisplayer.FromScratch();
-            newDisplayer.Display();
+            var newProcessor = MakeNewProcessor.FromScratch();
+            newProcessor.Display();
 
             Foo.Foo.Bar()
                .Baz();
@@ -23,7 +23,7 @@ namespace MyJunkSolution
             // wait for the user to press a key, so that the user can verify the
             // displayed text.
             MakeNewWaiter.FromScratch()
-                         .AttachDisplayer(newDisplayer)
+                         .AttachProcessor(newProcessor)
                          .WaitForUserToPressAKey(Resources.Message_PressAnyKeyToContinue);
         }
     }

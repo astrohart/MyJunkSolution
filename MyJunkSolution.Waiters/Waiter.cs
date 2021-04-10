@@ -12,10 +12,10 @@ namespace MyJunkSolution.Waiters
         /// <summary>
         /// Reference to an instance of an object that implements the
         /// <see
-        ///     cref="T:MyJunkSolution.Processors.Interfaces.IDisplayer" />
+        ///     cref="T:MyJunkSolution.Processors.Interfaces.IProcessor" />
         /// interface.
         /// </summary>
-        private IDisplayer _displayer;
+        private IProcessor _displayer;
 
         /// <summary>
         /// Constructs a new instance of
@@ -25,14 +25,14 @@ namespace MyJunkSolution.Waiters
         /// </summary>
         /// <param name="displayer">
         /// (Required.) Reference to an instance of an object that implements
-        /// the <see cref="T:MyJunkSolution.Processors.Interfaces.IDisplayer" />
+        /// the <see cref="T:MyJunkSolution.Processors.Interfaces.IProcessor" />
         /// interface for the purposes of, e.g., displaying user prompts.
         /// </param>
         /// <exception cref="T:System.ArgumentNullException">
         /// Thrown if the required parameter, <paramref name="displayer" />, is
         /// passed a <see langword="null" /> value.
         /// </exception>
-        public Waiter(IDisplayer displayer)
+        public Waiter(IProcessor displayer)
             => _displayer = displayer ??
                             throw new ArgumentNullException(nameof(displayer));
 
@@ -51,7 +51,7 @@ namespace MyJunkSolution.Waiters
         ///     cref="T:MyJunkSolution.Waiters.Interfaces.IWaiter" />
         /// with a
         /// <see
-        ///     cref="T:MyJunkSolution.Processors.Interfaces.IDisplayer" />
+        ///     cref="T:MyJunkSolution.Processors.Interfaces.IProcessor" />
         /// to be
         /// used for displaying text to the user.
         /// </summary>
@@ -63,7 +63,7 @@ namespace MyJunkSolution.Waiters
         /// Thrown if the required parameter, <paramref name="displayer" />, is
         /// passed a <see langword="null" /> value.
         /// </exception>
-        public IWaiter AttachDisplayer(IDisplayer displayer)
+        public IWaiter AttachProcessor(IProcessor displayer)
         {
             _displayer = displayer ??
                          throw new ArgumentNullException(nameof(displayer));
@@ -100,7 +100,7 @@ namespace MyJunkSolution.Waiters
         /// been initialized, either by calling the appropriate constructor or
         /// by calling the
         /// <see
-        ///     cref="M:MyJunkSolution.Waiters.Waiter.AttachDisplayer" />
+        ///     cref="M:MyJunkSolution.Waiters.Waiter.AttachProcessor" />
         /// method
         /// prior to calling this method.
         /// </exception>

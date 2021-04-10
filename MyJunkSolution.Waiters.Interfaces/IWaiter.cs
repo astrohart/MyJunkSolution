@@ -16,7 +16,7 @@ namespace MyJunkSolution.Waiters.Interfaces
         ///     cref="T:MyJunkSolution.Waiters.Interfaces.IWaiter" />
         /// with a
         /// <see
-        ///     cref="T:MyJunkSolution.Processors.Interfaces.IDisplayer" />
+        ///     cref="T:MyJunkSolution.Processors.Interfaces.IProcessor" />
         /// to be
         /// used for displaying text to the user.
         /// </summary>
@@ -28,7 +28,7 @@ namespace MyJunkSolution.Waiters.Interfaces
         /// Thrown if the required parameter, <paramref name="displayer" />, is
         /// passed a <see langword="null" /> value.
         /// </exception>
-        IWaiter AttachDisplayer(IDisplayer displayer);
+        IWaiter AttachProcessor(IProcessor displayer);
 
         /// <summary>
         /// Delays the application until the user presses a key.
@@ -58,7 +58,7 @@ namespace MyJunkSolution.Waiters.Interfaces
         /// been initialized, either by calling the appropriate constructor or
         /// by calling the
         /// <see
-        ///     cref="M:MyJunkSolution.Waiters.Waiter.AttachDisplayer" />
+        ///     cref="M:MyJunkSolution.Waiters.Waiter.AttachProcessor" />
         /// method
         /// prior to calling this method.
         /// </exception>

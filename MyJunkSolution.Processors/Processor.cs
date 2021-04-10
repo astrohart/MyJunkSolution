@@ -7,7 +7,7 @@ namespace MyJunkSolution.Processors
     /// <summary>
     /// Displays text on the screen.
     /// </summary>
-    public class Displayer : IDisplayer
+    public class Processor : IProcessor
     {
         /// <summary>
         /// Displays text for the user.

@@ -1,12 +1,12 @@
 namespace MyJunkSolution.Processors.Interfaces
 {
     /// <summary>
-    /// Defines the publicly-exposed methods and properties of a Displayer object.
+    /// Defines the publicly-exposed methods and properties of a Processor object.
     /// </summary>
     /// <remarks>
-    /// Displayer objects print text on the screen.
+    /// Processor objects print text on the screen.
     /// </remarks>
-    public interface IDisplayer
+    public interface IProcessor
     {
         /// <summary>
         /// Displays text for the user.
