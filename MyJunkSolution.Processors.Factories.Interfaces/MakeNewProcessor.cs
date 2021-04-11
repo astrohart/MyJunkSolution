@@ -1,6 +1,6 @@
 using MyJunkSolution.Processors.Interfaces;
 
-namespace MyJunkSolution.Processors.Factories
+namespace MyJunkSolution.Processors.Factories.Interfaces
 {
     /// <summary>
     /// Creates and initializes new instances of objects that implement the

@@ -1,4 +1,4 @@
-using MyJunkSolution.Processors.Factories;
+using MyJunkSolution.Processors.Factories.Interfaces;
 using MyJunkSolution.Properties;
 using MyJunkSolution.Waiters.Factories;
 
