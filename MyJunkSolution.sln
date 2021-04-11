@@ -8,7 +8,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyJunkSolution.Processors.I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyJunkSolution.Processors", "MyJunkSolution.Processors\MyJunkSolution.Processors.csproj", "{B5100EA8-BE29-49CF-A08F-823D7F4DFFC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyJunkSolution.Processors.Factories.Interfaces", "MyJunkSolution.Processors.Factories.Interfaces\MyJunkSolution.Processors.Factories.Interfaces.csproj", "{782E7FBC-9EB8-4944-8441-679C07E43DB7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyJunkSolution.Processors.Factories", "MyJunkSolution.Processors.Factories\MyJunkSolution.Processors.Factories.csproj", "{782E7FBC-9EB8-4944-8441-679C07E43DB7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyJunkSolution.Waiters.Interfaces", "MyJunkSolution.Waiters.Interfaces\MyJunkSolution.Waiters.Interfaces.csproj", "{F9644AAA-150F-474E-8CD4-C99AEAF136E1}"
 EndProject

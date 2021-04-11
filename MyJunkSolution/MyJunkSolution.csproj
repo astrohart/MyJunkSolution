@@ -74,9 +74,9 @@
       <Project>{CEE60A21-806E-453D-81F6-A858AF2A22D3}</Project>
       <Name>Foo</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MyJunkSolution.Processors.Factories.Interfaces\MyJunkSolution.Processors.Factories.Interfaces.csproj">
+    <ProjectReference Include="..\MyJunkSolution.Processors.Factories\MyJunkSolution.Processors.Factories.csproj">
       <Project>{782E7FBC-9EB8-4944-8441-679C07E43DB7}</Project>
-      <Name>MyJunkSolution.Processors.Factories.Interfaces</Name>
+      <Name>MyJunkSolution.Processors.Factories</Name>
     </ProjectReference>
     <ProjectReference Include="..\MyJunkSolution.Processors.Interfaces\MyJunkSolution.Processors.Interfaces.csproj">
       <Project>{84C1F71A-AAA4-4A08-9728-19E710965E4D}</Project>
