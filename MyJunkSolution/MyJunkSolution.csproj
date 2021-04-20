@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -70,6 +70,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MyJunkSolution.Finders.Factories\MyJunkSolution.Finders.Factories.csproj">
+      <Project>{83856E4F-BA50-4393-AFE8-A5F838D44103}</Project>
+      <Name>MyJunkSolution.Finders.Factories</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MyJunkSolution.Finders.Interfaces\MyJunkSolution.Finders.Interfaces.csproj">
       <Project>{CEE60A21-806E-453D-81F6-A858AF2A22D3}</Project>
       <Name>MyJunkSolution.Finders.Interfaces</Name>

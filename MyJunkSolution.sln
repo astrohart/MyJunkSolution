@@ -20,7 +20,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyJunkSolution.Finders.Inte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyJunkSolution.Finders", "MyJunkSolution.Finders\MyJunkSolution.Finders.csproj", "{F25CDB80-4A20-4272-858B-841278D3231D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foo", "Foo\Foo.csproj", "{83856E4F-BA50-4393-AFE8-A5F838D44103}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyJunkSolution.Finders.Factories", "MyJunkSolution.Finders.Factories\MyJunkSolution.Finders.Factories.csproj", "{83856E4F-BA50-4393-AFE8-A5F838D44103}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

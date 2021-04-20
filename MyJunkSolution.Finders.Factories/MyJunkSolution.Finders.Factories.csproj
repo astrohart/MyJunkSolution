@@ -58,16 +58,17 @@
     <StartupObject />
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyName>Foo</AssemblyName>
+    <AssemblyName>MyJunkSolution.Finders.Factories</AssemblyName>
   </PropertyGroup>
   <PropertyGroup>
-    <RootNamespace>Foo</RootNamespace>
+    <RootNamespace>MyJunkSolution.Finders.Factories</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GetFinder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -83,6 +84,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="1382_cogs.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyJunkSolution.Finders.Interfaces\MyJunkSolution.Finders.Interfaces.csproj">
+      <Project>{CEE60A21-806E-453D-81F6-A858AF2A22D3}</Project>
+      <Name>MyJunkSolution.Finders.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyJunkSolution.Finders\MyJunkSolution.Finders.csproj">
+      <Project>{F25CDB80-4A20-4272-858B-841278D3231D}</Project>
+      <Name>MyJunkSolution.Finders</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

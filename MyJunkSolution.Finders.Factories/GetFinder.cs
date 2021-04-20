@@ -1,4 +1,6 @@
-namespace MyJunkSolution.Finders.Interfaces
+using MyJunkSolution.Finders.Interfaces;
+
+namespace MyJunkSolution.Finders.Factories
 {
     public static class GetFinder
     {

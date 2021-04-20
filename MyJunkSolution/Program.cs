@@ -1,3 +1,4 @@
+using MyJunkSolution.Finders.Factories;
 using MyJunkSolution.Finders.Interfaces;
 using MyJunkSolution.Processors.Factories;
 using MyJunkSolution.Properties;
