@@ -2,9 +2,9 @@ using MyJunkSolution.Finders.Interfaces;
 
 namespace MyJunkSolution.Finders.Factories
 {
-    public static class GetFinder
+    public static class MakeNewFinder
     {
-        public static IFinder MakeNewInstance()
+        public static IFinder FromScratch()
             => new Finder();
     }
 }
