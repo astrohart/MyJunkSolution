@@ -36,7 +36,7 @@ namespace MyJunkSolution.Waiters.Interfaces
         void WaitForUserToPressAKey();
 
         /// <summary>
-        /// Delays the application until the user presses a key. Processs a
+        /// Delays the application until the user presses a key. Processes a
         /// <paramref name="prompt" /> to the user. A non-blank, non-whitespace
         /// value must be passed for the <paramref name="prompt" /> parameter.
         /// <para />

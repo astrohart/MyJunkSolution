@@ -9,12 +9,12 @@ namespace MyJunkSolution.Processors.Interfaces
     public interface IProcessor
     {
         /// <summary>
-        /// Processs text for the user.
+        /// Processes text for the user.
         /// </summary>
         void Process();
 
         /// <summary>
-        /// Processs text for the user.
+        /// Processes text for the user.
         /// </summary>
         /// <param name="value">
         /// (Required.) String containing the text to be displayed on the console.

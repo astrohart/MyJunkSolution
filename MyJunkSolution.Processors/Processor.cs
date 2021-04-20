@@ -5,18 +5,18 @@ using System;
 namespace MyJunkSolution.Processors
 {
     /// <summary>
-    /// Processs text on the screen.
+    /// Processes text on the screen.
     /// </summary>
     public class Processor : IProcessor
     {
         /// <summary>
-        /// Processs text for the user.
+        /// Processes text for the user.
         /// </summary>
         public void Process()
             => Console.WriteLine(Resources.TextToProcess);
 
         /// <summary>
-        /// Processs text for the user.
+        /// Processes text for the user.
         /// </summary>
         /// <param name="value">
         /// (Required.) String containing the text to be displayed on the console.
