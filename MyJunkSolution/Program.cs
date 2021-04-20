@@ -1,3 +1,4 @@
+using MyJunkSolution.Finders.Interfaces;
 using MyJunkSolution.Processors.Factories;
 using MyJunkSolution.Properties;
 using MyJunkSolution.Waiters.Factories;
@@ -17,8 +18,7 @@ namespace MyJunkSolution
             var newProcessor = MakeNewProcessor.FromScratch();
             newProcessor.Process();
 
-            Foo.Foo.Bar()
-               .Baz();
+           GetFinder.MakeNewInstance().Find();
 
             // wait for the user to press a key, so that the user can verify the
             // displayed text.

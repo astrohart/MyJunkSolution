@@ -1,10 +1,10 @@
 using System;
 
-namespace Foo
+namespace MyJunkSolution.Finders.Interfaces
 {
-    public class Bar : IFoo
+    public class Bar : IFinder
     {
-        public void Baz()
+        public void Find()
             => Console.WriteLine(
                 "Brian is a terrible software engineer!  But an awesome physicist!"
             );
