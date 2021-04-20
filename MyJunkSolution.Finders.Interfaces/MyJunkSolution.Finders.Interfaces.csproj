@@ -68,7 +68,6 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bar.cs" />
     <Compile Include="Finder.cs" />
     <Compile Include="IFinder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
